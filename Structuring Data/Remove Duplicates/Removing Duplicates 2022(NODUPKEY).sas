@@ -1,0 +1,3 @@
+PROC SORT DATA=Diabetes_2022 OUT=Diabetes_2022 NODUPKEY;
+BY Patient_ID;
+RUN;
